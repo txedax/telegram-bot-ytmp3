@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "telegram-bot-ytmp3"
+version = "1.0.0"
+description = ""
+authors = ["Almaz <149729678+txedax@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.1.1"
+pytube = "^15.0.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
